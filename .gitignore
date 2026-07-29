@@ -1,0 +1,17 @@
+# Ambiente
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# Dado bruto — nunca versionado
+data/raw/
+
+# Bloqueio geral de dado
+*.csv
+*.xlsx
+*.parquet
+
+# Exceções: fixtures sintéticos e saída do profiler
+!data/sample/*.csv
+!output/profiles/*.csv
